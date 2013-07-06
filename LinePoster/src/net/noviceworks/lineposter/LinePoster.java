@@ -145,7 +145,7 @@ public class LinePoster {
 	}
 
 
-	@SuppressLint("WorldReadableFiles")
+	@SuppressLint({ "WorldReadableFiles", "NewApi" })
 	@SuppressWarnings("deprecation")
 	private String assets2local( String file_name ) {
 		String[] fname_split = file_name.split( "/" );
